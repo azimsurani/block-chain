@@ -10,7 +10,7 @@ import json
 from flask import Flask, jsonify
 
 
-# Module 1 - Building a Blockchain
+# Part 1 - Building a Blockchain
 
 class Blockchain:
     
@@ -65,7 +65,7 @@ class Blockchain:
         return True
     
 
-# Module 2 - Mining  our Blockchain
+# Part 2 - Mining  our Blockchain
 
 # Creating a flask app
 app = Flask(__name__)
